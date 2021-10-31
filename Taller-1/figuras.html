@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Figuras Geométricas</title>
+  </head>
+  <body>
+    <head>
+      <h1>Figuras Geométricas</h1>
+      <p>Taller de JS</p>
+    </head>
+    <main>
+      <section>
+        <h2>Area y perimetro del cuadrado</h2>
+        <form action="">
+          <label for="ladocuadrado">
+            <span>Escribe cuanto mide cada lado de tu cuadrado</span>
+            <input type="number" id="ladocuadrado" />
+          </label>
+          <input
+            type="button"
+            value="Calcular Perimetro"
+            onclick="calcularPerimetro()"
+          />
+          <input type="button" value="Calcular Area" onclick="calcularArea()" />
+        </form>
+      </section>
+    </main>
+    <script src="./figuras.js"></script>
+  </body>
+</html>
